@@ -10,13 +10,13 @@ This transcript introduces a course on Object-Oriented Programming (OOP) using C
 2. **Core OOP Concepts:**
 
    - Understanding **classes** and **objects**, which are fundamental to OOP.
-   - Learning about **Inheritance**, **Polymorphism** and **encapsulation**, and how it helps in securing data.
+   - Learning about **Inheritance**, **Polymorphism** and **encapsulation**.
 
 3. **Advanced OOP Features in C++:**
 
    - Using **constructors** to initialize objects.
    - Implementing **destructors** for memory management.
-   - Understanding **templates** for generic programming.
+   - Understanding **templates** for generic code.
    - Exploring **operator overloading** to enhance functionality.
 
 4. **Hands-on Practice:**
