@@ -7,7 +7,7 @@ This transcript explains how to design and implement a **Complex Number class** 
 The discussion starts by clarifying what a **complex number** is. The **business owner** explains that a complex number represents the **square root of a negative number** and is written in the form:
 
 \[
-\text{real part} + \text{imaginary part} \cdot i
+real part+imaginary part⋅i
 \]
 
 Where:
