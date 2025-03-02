@@ -5,12 +5,12 @@ This transcript introduces a course on Object-Oriented Programming (OOP) using C
 1. **Introduction to OOP & C++:**
 
    - OOP stands for Object-Oriented Programming.
-   - C++ is a powerful programming language that supports OOP, making it secure and easy to use.
+   - C++ is a powerful programming language that supports OOP, making it flexible and easy to use.
 
 2. **Core OOP Concepts:**
 
    - Understanding **classes** and **objects**, which are fundamental to OOP.
-   - Learning about **encapsulation** and how it helps in securing data.
+   - Learning about **Inheritance**, **Polymorphism** and **encapsulation**, and how it helps in securing data.
 
 3. **Advanced OOP Features in C++:**
 
