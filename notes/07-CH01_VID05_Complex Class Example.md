@@ -167,4 +167,4 @@ Complex resultComplex;
 - Implement multiplication and division for complex numbers.
 - Convert the class to use **constructors** for easier initialization.
 
-This summary covers all aspects, from **theoretical concepts** to **C++ implementation** and **memory management**. 🚀
+This summary covers all aspects, from **theoretical concepts** to **C++ implementation** and **memory management**.
