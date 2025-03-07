@@ -28,7 +28,3 @@ This text is an introduction to a course on **Object-Oriented Programming (OOP) 
 - Writing **robust and maintainable** C++ code.
 - Enabling learners to **write effective and scalable code**.
 - Providing a solid foundation for learning OOP in **modern programming languages** like **Java** and **.NET**.
-
-### **4. Call to Action**
-
-- At the end of the transcript, there is an **encouragement to subscribe to the channel** to follow the course and gain valuable knowledge.
