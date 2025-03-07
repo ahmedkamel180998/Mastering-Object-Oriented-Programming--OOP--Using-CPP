@@ -7,7 +7,7 @@ The transcript explains the **concept of inheritance** in **Object-Oriented Prog
 ### **1. Understanding Inheritance and Its Benefits**
 
 - Inheritance allows us to structure code **hierarchically**, making it easier to reuse common attributes and behaviors.
-- It improves **usability** and **maintainability** by reducing redundancy in the codebase.
+- It improves **reusability** and **maintainability** by reducing redundancy in the codebase.
 - A **parent-child** relationship exists between classes, where a **child class** inherits attributes and functions from a **parent class**.
 
 ---
@@ -52,7 +52,7 @@ The transcript explains the **concept of inheritance** in **Object-Oriented Prog
 
 - **Organizes code** by grouping common functionality in a parent class.
 - **Reduces redundancy** by allowing child classes to inherit common attributes/functions.
-- **Improves readability and usability** by defining clear relationships between parent and child classes.
+- **Improves readability and reusability** by defining clear relationships between parent and child classes.
 - **Allows controlled access** to functions and attributes depending on the class type.
 
 This structured use of inheritance makes **OOP-based systems more modular, flexible, and maintainable**.
