@@ -1,6 +1,6 @@
 ### **Detailed Summary of the Transcript on Inheritance in OOP**
 
-The transcript explains the **concept of inheritance** in **Object-Oriented Programming (OOP)** and how it helps in organizing code efficiently, improving usability, and simplifying maintenance. The explanation is broken down into several key points:
+The transcript explains the **concept of inheritance** in **Object-Oriented Programming (OOP)** and how it helps in organizing code efficiently, improving reusability, and simplifying maintenance. The explanation is broken down into several key points:
 
 ---
 
