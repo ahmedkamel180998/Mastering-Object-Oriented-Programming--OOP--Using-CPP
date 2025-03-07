@@ -20,7 +20,3 @@ This transcript is an introduction to discussing **Object-Oriented Programming (
 
 - The chapter concludes with a **practical example** of a **Complex Class**, demonstrating how to implement OOP concepts in real-world scenarios.
 - The speaker explains how to **transform any real-life problem into an OOP-based solution** using the discussed concepts.
-
-### **5. Background Music**
-
-- The transcript mentions background music playing at the beginning and end of the session.
