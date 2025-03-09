@@ -37,8 +37,9 @@ Now, instead of an integer, an object of class `Complex` is passed to the functi
 ```cpp
 class Complex {
 public:
-    int real, imag;
     Complex(int r, int i) : real(r), imag(i) {}  // Constructor
+private:
+    int real, imag;
 };
 
 void myFunc(Complex b) {
