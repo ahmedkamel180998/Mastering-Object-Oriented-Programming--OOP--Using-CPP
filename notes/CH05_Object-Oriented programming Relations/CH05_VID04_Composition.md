@@ -92,4 +92,3 @@ The video uses the classic example of a `House` and `Room` classes to illustrate
   - **Hard Ownership:** Corresponds to Composition (stronger, dependent lifecycle).
 - **Practical Advice:** If you're unsure whether a relationship is Aggregation or Composition, it's safer to start by modeling it as Association. As you gain more experience and understand the domain better, you can refine the relationship.
 - **Rarity of Composition:** The video mentions that Composition relationships are relatively _rare_ in real-world systems. Aggregation is often more flexible and appropriate. Don't overuse Composition.
-- Corrects the misinterpretation of the word "list" as "rlist" instead of Room\*.
