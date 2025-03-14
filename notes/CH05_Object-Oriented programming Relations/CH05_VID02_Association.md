@@ -47,5 +47,3 @@ The video discusses various types of class relations in Object-Oriented Programm
 
 - **Key Takeaway**: Association is a relationship where one class uses another class without owning it. This relationship is crucial in designing systems where objects need to interact without being tightly coupled.
 - **UML and Code Representation**: Properly representing association in UML diagrams and implementing it in code ensures clear and maintainable object-oriented designs.
-
-This structured summary provides a clear understanding of the association relationship in OOP, supported by examples and analogies from the video transcript.
