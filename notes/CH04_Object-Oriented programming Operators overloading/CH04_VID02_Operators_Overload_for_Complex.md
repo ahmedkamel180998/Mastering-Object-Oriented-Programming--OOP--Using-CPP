@@ -178,6 +178,37 @@ This transcript explains the concept of operator overloading in C++ for a `Compl
   ```
 - **Explanation**: The casting operator returns the real part of the `Complex` object as a `float`.
 
+---
+
+## **General Rules for Member vs. Friend Functions**
+
+- If the **left operand** is an object → **Member function** is sufficient.
+- If the **left operand is NOT an object** → **Friend function** is needed.
+
+### **Example Table for Choosing the Right Approach**
+
+| Operation | Overload Type       |
+| --------- | ------------------- |
+| `C1 + C2` | **Member function** |
+| `C1 + 5`  | **Member function** |
+| `5 + C1`  | **Friend function** |
+
+---
+
+## **Summary of Overloaded Operators**
+
+| Operator Overload         | Function Type       | Purpose                                |
+| ------------------------- | ------------------- | -------------------------------------- |
+| `+` (Complex + Complex)   | **Member Function** | Adds two `Complex` objects.            |
+| `+` (Complex + float)     | **Member Function** | Adds a float to a `Complex`.           |
+| `+` (float + Complex)     | **Friend Function** | Allows float on the left-hand side.    |
+| `==` (Complex == Complex) | **Member Function** | Compares two `Complex` objects.        |
+| `++` (Prefix)             | **Member Function** | Increases real part before returning.  |
+| `++` (Postfix)            | **Member Function** | Returns old value before incrementing. |
+| `(float)` Cast            | **Member Function** | Converts `Complex` to float.           |
+
+---
+
 ### Conclusion
 
 The transcript demonstrates how to overload various operators for a `Complex` class in C++. By overloading operators, we can define custom behavior for operations involving complex numbers, making the code more intuitive and expressive. The examples cover addition, subtraction, compound assignment, equality comparison, increment operators, and type casting. The use of member functions and `friend` functions is explained, highlighting when each approach is appropriate based on the operands' positions.
