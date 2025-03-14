@@ -33,7 +33,7 @@ The video uses the classic example of a `House` and `Room` classes to illustrate
     - `- rlist: Room*` (a pointer to an array of `Room` objects - representing multiple rooms)
     - `- mainRoom: Room` (a direct `Room` object - representing at least one mandatory room)
   - A solid diamond-headed line connecting `House` to `Room`, indicating Composition. The diamond is on the `House` side (the "whole").
-  - Multiplicity: `1` on the `House` side, `n` on the `Room` side (a house has one or more rooms).
+  - Cardinality: `1` on the `House` side, `n` on the `Room` side (a house has one or more rooms).
 
 - **Code Explanation (C++):**
 
