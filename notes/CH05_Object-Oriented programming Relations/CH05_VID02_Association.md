@@ -11,7 +11,7 @@ The video discusses various types of class relations in Object-Oriented Programm
 
 #### Representing Association in UML
 
-![alt text](image.png)
+![A slide describes UML for Association](imgs\image.png)
 
 - **UML Notation**: In UML diagrams, association is represented by a line with an arrow indicating the direction of the relationship. For instance, if a `Seminar` offers multiple `Course` objects, the UML diagram would show a line from `Seminar` to `Course` with an arrow pointing towards `Course`.
 - **Cardinality**: The relationship can also include cardinality notations, such as `0..1`, `1..*`, or `n`, to indicate how many instances of one class are associated with another. For example, a `Seminar` might offer `n` courses, meaning one or more.
