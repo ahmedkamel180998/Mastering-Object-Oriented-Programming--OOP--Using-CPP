@@ -67,6 +67,14 @@ Company ◇—— Employee
 - **Association**: A general relationship where one class is connected to another. It can be represented by a method or a pointer.
 - **Aggregation**: A stronger form of association where the relationship is defined within the constructor of the container class. This means that the container class requires the aggregated object for its initialization.
 
+### Key Takeaways:
+
+- **Aggregation** is a stronger, more specific form of Association.
+
+- **Aggregation** implies a "whole-part" relationship with independent lifecycles, while Association is a general relationship without strict ownership or lifecycle dependencies.
+
+- **Aggregation** is often represented in constructors, while Association can be represented by methods or pointers.
+
 ---
 
 #### Conclusion
