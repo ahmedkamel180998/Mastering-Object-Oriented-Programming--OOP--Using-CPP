@@ -1,5 +1,3 @@
-Okay, here's a detailed summary of the video transcript in English, structured with clear sections and including relevant code examples as presented:
-
 **Introduction to Inheritance Types**
 
 The instructor continues the discussion on inheritance in C++. The previous video covered public inheritance, and this video aims to explore other types of inheritance.
