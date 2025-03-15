@@ -22,7 +22,7 @@ Okay, here's a structured summary of the video transcript, focusing on code and 
 - **Aggregation vs Composition**: Aggregation indicates a "has-a" relationship where child can exists indepenently of parent, while composition implies a stronger "owns-a" relationship, and the child can not exist without the parent.
 - **Association**: Association means there is a connection between classes.
 
-![A slide represent composition vs. aggregation in OOP](/imgs/composition%20vs%20aggregation.png)
+![A slide represent composition vs. aggregation in OOP](/imgs/composition_vs_aggregation.png)
 
 - **Related Code**:
 
