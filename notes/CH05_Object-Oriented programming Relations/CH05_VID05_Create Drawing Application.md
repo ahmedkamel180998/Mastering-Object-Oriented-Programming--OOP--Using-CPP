@@ -152,7 +152,7 @@ Okay, here's a structured summary of the video transcript, focusing on code and 
     lNum = ln;
     pLines = lptr;
   }
-  void Picture::setLines()
+  void Picture::paint()
   {
     int i;
     for(i=0; i<cNum; i++)
@@ -197,11 +197,9 @@ Okay, here's a structured summary of the video transcript, focusing on code and 
     Picture myPic;
     Line * lArr ;
     lArr = new Line[2];
-    lArr[0] = Line(Point(420,50), Point(300,300));
+    lArr[0] = Line(420,50, 300,300);
     lArr[1] = Line(40,500,500,400);
 
-    myPic.setCircles (3,cArr);
-    myPic.setRects (2,rArr);
     myPic.setLines (2,lArr);
 
     myPic.paint();
