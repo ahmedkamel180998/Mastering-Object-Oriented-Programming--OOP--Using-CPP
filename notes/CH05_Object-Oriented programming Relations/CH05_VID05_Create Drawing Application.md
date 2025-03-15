@@ -212,59 +212,60 @@ Okay, here's a structured summary of the video transcript, focusing on code and 
 - **Constructor and Destructor Chaining**: Understanding the order of constructor and destructor calls in composition. The video explains that when you create an object that _composes_ other objects, the constructors of the _composed_ objects are called _before_ the constructor of the container object. For destructors, the order is reversed.
 
   - **Example**: When creating a `Line` object, the constructors for `start` and `end` (`Point` objects) are called before the `Line` constructor's body is executed.
+
     ```cpp
     #include <iostream>
     using namespace std;
 
-                        class Point
-                        {
-                        int x;
-                        int y;
-                        public:
-                        Point();
-                        Point (int m, int n)
-                        {
-                            cout << "1- This is point constructor" << endl;
-                        }
-                        void setX(int m);
-                        void setY(int n);
-                        int getX();
-                        int getY();
-                        ~Point()
-                        {
-                            cout << "1- This is point destructor" << endl;
-                        }
-                        };
+    class Point
+    {
+    int x;
+    int y;
+    public:
+    Point();
+    Point (int m, int n)
+    {
+        cout << "1- This is point constructor" << endl;
+    }
+    void setX(int m);
+    void setY(int n);
+    int getX();
+    int getY();
+    ~Point()
+    {
+        cout << "1- This is point destructor" << endl;
+    }
+    };
 
-                        class Line
-                        {
-                        Point start;
-                        Point end;
-                        public:
-                        Line() : start(), end()
-                        {
-                            cout<<"At line Const.";
-                        }
-                        Line(int x1, int y1, int x2, int y2) : start(x1,y1), end(x2,y2)
-                        {
-                            cout << "2- This is line constructor" << endl;
-                        }
-                        void draw()
-                        {
-                            //line(start.getX(), start.getY(), end.getX(), end.getY());
-                        }
-                        ~Line()
-                        {
-                            cout << "2- This is line destructor" << endl;
-                        }
-                        };
+    class Line
+    {
+    Point start;
+    Point end;
+    public:
+    Line() : start(), end()
+    {
+        cout<<"At line Const.";
+    }
+    Line(int x1, int y1, int x2, int y2) : start(x1,y1), end(x2,y2)
+    {
+        cout << "2- This is line constructor" << endl;
+    }
+    void draw()
+    {
+        //line(start.getX(), start.getY(), end.getX(), end.getY());
+    }
+    ~Line()
+    {
+        cout << "2- This is line destructor" << endl;
+    }
+    };
 
-                        int main()
-                        {
-                            Line l(10, 20, 30, 40);
-                            return 0;
-                        }
-                    ```
+    int main()
+    {
+        Line l(10, 20, 30, 40);
+        return 0;
+    }
+    ```
 
   - **Related Code**: The constructors of `Line`, `Rect`, and `Circle` demonstrate this. No specific additional code is needed beyond what's already shown.
 
