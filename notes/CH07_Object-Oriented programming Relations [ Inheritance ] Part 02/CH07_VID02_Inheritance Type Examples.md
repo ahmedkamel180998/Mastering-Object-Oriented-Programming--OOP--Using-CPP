@@ -1,4 +1,4 @@
-\*1. Introduction and Problem Setup:\*\*
+**1. Introduction and Problem Setup:**
 
 The video begins by introducing the concept of inheritance in C++ and sets up a practical example to illustrate its different types. The problem involves calculating the areas of various geometric shapes (triangle, rectangle, circle, and square). The instructor emphasizes the commonality: all these shapes, for area calculation, fundamentally rely on two dimensions (even if those dimensions are equal, as in the case of a circle and a square).
 
