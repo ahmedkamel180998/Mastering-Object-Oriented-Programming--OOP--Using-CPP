@@ -78,6 +78,6 @@ This is the crucial section dealing with pointers of the _base_ class type point
 
 **Key Takeaways and Rules Summarized by the Instructor**
 
-- **Object from the Derived works as pointer to Derived One:** A pointer of the derived class type that is pointing to an object of the derived class type, will act like the object.
+- **Pointer from the Derived works as pointer to Derived One:** A pointer of the derived class type that is pointing to an object of the derived class type, will act like the object.
 - **Pointer From the Base to object of Derived will only access the Base part in the derived:** A base class pointer can point to a derived class object, but it will only be able to access the base class portion of that derived object. Compile-time checks and (without virtual functions) run-time method dispatch will be based on the base class's definition.
 - Always check according to the caller.
